@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 
 import BaseLayout from '@components/layout/BaseLayout';
-import Hero from '@components/modules/Hero';
+import Hero from '@components/modules/home/Hero';
 
 const Home: React.FC = () => (
   <>
