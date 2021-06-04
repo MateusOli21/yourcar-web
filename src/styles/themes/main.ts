@@ -1,0 +1,31 @@
+export const theme = {
+  colors: {
+    primary: '#0070f3',
+    white: '#f6f6f6',
+    whiteAlt: '#f8f8f8',
+    gray: '#696969',
+    grayAlt: '#2d2d2d',
+    black: '#151515',
+    blackAlt: '#212121',
+  },
+  sizes: {
+    small: '12px',
+    smaller: '14px',
+    normal: '16px',
+    bigger: '20px',
+    big: '24px',
+    headlineSix: '28px',
+    headlineFive: '36px',
+    headlineFour: '48px',
+    headlineThree: '56px',
+    headlineTwo: '64px',
+    headlineOne: '72px',
+  },
+  weights: {
+    light: 100,
+    normal: 400,
+    medium: 500,
+    semiBold: 600,
+    bold: 700,
+  },
+};
