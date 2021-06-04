@@ -5,7 +5,7 @@ import carHero from '@assets/images/porche.png';
 import { PrimaryButton, OutlinedButton } from '@components/elements/buttons';
 
 const Hero: React.FC = () => (
-  <section className="w-full max-w-6xl flex flex-col md:flex-row justify-between mt-5 sm:mt-12 lg:mt-16 items-center px-5 pt-12">
+  <section className="w-full max-w-6xl flex flex-col md:flex-row justify-between mt-5 sm:mt-12 lg:mt-16 items-center pt-12">
     <div className="flex flex-col max-w-xl mb-16 md:mb-0">
       <div className="flex flex-row items-center gap-2">
         <div className="w-16 h-0.5 bg-red-500" />

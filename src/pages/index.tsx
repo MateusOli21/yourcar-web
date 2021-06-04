@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 
 import BaseLayout from '@components/layout/BaseLayout';
-import Hero from '@components/modules/home/Hero';
+import { Hero, ScheduleTestDrive } from '@components/modules/home';
 
 const Home: React.FC = () => (
   <>
@@ -10,8 +10,9 @@ const Home: React.FC = () => (
       <title>Home</title>
     </Head>
     <BaseLayout>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center px-5">
         <Hero />
+        <ScheduleTestDrive />
       </div>
     </BaseLayout>
   </>
