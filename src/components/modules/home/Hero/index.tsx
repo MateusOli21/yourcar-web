@@ -23,7 +23,7 @@ const Hero: React.FC = () => (
       </p>
 
       <div className="flex gap-4 mt-11">
-        <PrimaryButton>Comprar agora</PrimaryButton>
+        <PrimaryButton>Alugar agora</PrimaryButton>
         <OutlinedButton>Ver carros</OutlinedButton>
       </div>
     </div>
