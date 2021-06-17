@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdClose } from 'react-icons/md';
 
-import Logo from '@components/elements/Logo';
+import { Logo } from '@components/elements/customs';
 import { NavItems, NavItem } from '@components/elements/navbar';
 
 const Navbar: React.FC = () => {
