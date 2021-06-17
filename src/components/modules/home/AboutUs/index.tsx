@@ -7,7 +7,7 @@ import {
 } from '@components/elements/customs';
 
 const AboutUs: React.FC = () => (
-  <div className="w-full max-w-6xl flex flex-col lg:flex-row lg:gap-14 items-center justify-center py-8 lg:py-12">
+  <div className="w-full bg-gray-100 max-w-6xl flex flex-col lg:flex-row lg:gap-14 items-center justify-center py-8 lg:pt-12 lg:pb-24">
     <img
       className="w-full max-w-lg md:max-w-xl"
       src={jeepImage}

@@ -7,6 +7,7 @@ import {
   ScheduleTestDrive,
   HowItWorks,
   AboutUs,
+  OurNumbers,
 } from '@components/modules/home';
 
 const Home: React.FC = () => (
@@ -20,6 +21,7 @@ const Home: React.FC = () => (
         <ScheduleTestDrive />
         <HowItWorks />
         <AboutUs />
+        <OurNumbers />
       </div>
     </BaseLayout>
   </>
