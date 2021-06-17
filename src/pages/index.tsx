@@ -2,7 +2,12 @@ import React from 'react';
 import Head from 'next/head';
 
 import BaseLayout from '@components/layout/BaseLayout';
-import { Hero, ScheduleTestDrive, HowItWorks } from '@components/modules/home';
+import {
+  Hero,
+  ScheduleTestDrive,
+  HowItWorks,
+  AboutUs,
+} from '@components/modules/home';
 
 const Home: React.FC = () => (
   <>
@@ -14,6 +19,7 @@ const Home: React.FC = () => (
         <Hero />
         <ScheduleTestDrive />
         <HowItWorks />
+        <AboutUs />
       </div>
     </BaseLayout>
   </>
