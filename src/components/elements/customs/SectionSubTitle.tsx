@@ -1,7 +1,13 @@
 import React from 'react';
 
-const SectionSubTitle: React.FC = ({ children }) => (
-  <h6 className="text-red-500 font-semibold">{children}</h6>
+interface IComponentProps {
+  altColor?: boolean;
+}
+
+const SectionSubTitle: React.FC<IComponentProps> = ({ children, altColor }) => (
+  <h6 className={`font-semibold ${altColor ? `text-white` : `text-red-500`}`}>
+    {children}
+  </h6>
 );
 
 export default SectionSubTitle;

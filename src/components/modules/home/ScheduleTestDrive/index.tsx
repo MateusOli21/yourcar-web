@@ -22,7 +22,7 @@ const ScheduleTestDrive: React.FC = () => {
   const handleToggleLocations = () => setToggleLocations(!toggleLocations);
 
   return (
-    <div className="w-full max-w-3xl flex flex-col gap-11  md:flex-row items-center justify-between mt-24 mb-11 px-7 py-6 bg-gray-100 shadow-xl">
+    <div className="w-full max-w-3xl flex flex-col gap-11 md:flex-row items-center justify-between mt-24 mb-11 px-7 py-6 bg-gray-100 shadow-xl">
       <ScheduleDropdownWrapper
         onClick={handleToggleLocations}
         onKeyPress={handleToggleLocations}

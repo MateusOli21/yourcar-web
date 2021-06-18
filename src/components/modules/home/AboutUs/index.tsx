@@ -7,7 +7,7 @@ import {
 } from '@components/elements/customs';
 
 const AboutUs: React.FC = () => (
-  <div className="w-full bg-gray-100 max-w-6xl flex flex-col lg:flex-row lg:gap-14 items-center justify-center py-8 lg:pt-12 lg:pb-24">
+  <div className="w-full bg-gray-100 max-w-6xl flex flex-col lg:flex-row lg:gap-14 items-center justify-center px-5 py-8 lg:pt-12 lg:pb-24">
     <img
       className="w-full max-w-lg md:max-w-xl"
       src={jeepImage}
@@ -20,7 +20,7 @@ const AboutUs: React.FC = () => (
         Tenha a melhor experiência ao alugar um carro
       </SectionMainTitle>
 
-      <p className="mt-8 leading-relaxed">
+      <p className="mt-8 text-center md:text-left leading-relaxed">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus,
         ipsum eget hendrerit eleifend, purus augue malesuada felis, non
         dignissim enim risus vitae lorem. Sed cursus urna ac risus imperdiet

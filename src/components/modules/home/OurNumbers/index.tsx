@@ -25,7 +25,7 @@ const OurNumbers: React.FC = () => {
   ];
 
   return (
-    <div className="flex flex-col md:flex-row gap-4 md:gap-11 pt-9 lg:-mt-24 md:pb-16">
+    <div className="flex flex-col md:flex-row gap-4 md:gap-11 px-5 pt-9 lg:-mt-24 md:pb-16">
       {numbersList.map((option, index) => (
         <NumbersCard
           key={index}

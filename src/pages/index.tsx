@@ -10,6 +10,7 @@ import {
   OurNumbers,
   Testimonials,
 } from '@components/modules/home';
+import Newsletter from '@components/modules/Newsletter';
 
 const Home: React.FC = () => (
   <>
@@ -17,13 +18,14 @@ const Home: React.FC = () => (
       <title>Home</title>
     </Head>
     <BaseLayout>
-      <div className="flex flex-col items-center px-5">
+      <div className="flex flex-col items-center">
         <Hero />
         <ScheduleTestDrive />
         <HowItWorks />
         <AboutUs />
         <OurNumbers />
         <Testimonials />
+        <Newsletter />
       </div>
     </BaseLayout>
   </>

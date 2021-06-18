@@ -7,7 +7,7 @@ import {
 } from '@components/elements/customs';
 
 const Testimonials: React.FC = () => (
-  <div className="flex flex-col items-center py-16">
+  <div className="flex flex-col items-center py-16 px-5">
     <SectionSubTitle>Depoimentos</SectionSubTitle>
     <SectionMainTitle>O que nossos clientes dizem</SectionMainTitle>
 
