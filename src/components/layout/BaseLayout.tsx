@@ -1,10 +1,12 @@
-import Navbar from '@components/modules/Navbar';
 import React from 'react';
+
+import { Navbar, Footer } from '@components/modules';
 
 const BaseLayout: React.FC = ({ children }) => (
   <>
     <Navbar />
     {children}
+    <Footer />
   </>
 );
 

@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 
 import BaseLayout from '@components/layout/BaseLayout';
+import { Newsletter } from '@components/modules';
 import {
   Hero,
   ScheduleTestDrive,
@@ -10,7 +11,6 @@ import {
   OurNumbers,
   Testimonials,
 } from '@components/modules/home';
-import Newsletter from '@components/modules/Newsletter';
 
 const Home: React.FC = () => (
   <>
