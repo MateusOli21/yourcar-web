@@ -8,6 +8,7 @@ import {
   HowItWorks,
   AboutUs,
   OurNumbers,
+  Testimonials,
 } from '@components/modules/home';
 
 const Home: React.FC = () => (
@@ -22,6 +23,7 @@ const Home: React.FC = () => (
         <HowItWorks />
         <AboutUs />
         <OurNumbers />
+        <Testimonials />
       </div>
     </BaseLayout>
   </>
