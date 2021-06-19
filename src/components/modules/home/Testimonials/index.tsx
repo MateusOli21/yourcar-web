@@ -14,7 +14,7 @@ const Testimonials: React.FC = () => (
     <SectionSubTitle>Depoimentos</SectionSubTitle>
     <SectionMainTitle>O que nossos clientes dizem</SectionMainTitle>
 
-    <div className="flex flex-col lg:flex-row gap-4 md:gap-8 lg:gap-11 my-6">
+    <div className="flex flex-col lg:flex-row gap-4 md:gap-8 lg:gap-11 mt-9 mb-6">
       <TestimonialCard />
       <TestimonialCard />
       <TestimonialCard />

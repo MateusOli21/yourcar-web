@@ -11,12 +11,12 @@ import {
 const HowItWorks: React.FC = () => (
   <section
     id="how-it-works-section"
-    className="w-full max-w-6xl flex flex-col items-center justify-center px-5 sm:py-9 md:pt-14 md:pb-10"
+    className="w-full max-w-6xl flex flex-col items-center justify-center px-5 mt-16 sm:py-9 md:mt-11 md:pb-10 "
   >
     <SectionSubTitle>Como funciona</SectionSubTitle>
     <SectionMainTitle>Nossos passos para alugar um carro</SectionMainTitle>
 
-    <div className="mt-11 mb-6 flex flex-col gap-4 md:gap-8 md:flex-row">
+    <div className=" flex flex-col gap-4 mt-9 mb-6 md:gap-8 md:flex-row">
       <StepsToRentCard
         title="Escolha o local"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam risus velit, maximus eget"
