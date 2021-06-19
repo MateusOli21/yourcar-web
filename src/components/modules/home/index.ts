@@ -4,6 +4,7 @@ import HowItWorks from './HowItWorks';
 import AboutUs from './AboutUs';
 import OurNumbers from './OurNumbers';
 import Testimonials from './Testimonials';
+import TopCars from './TopCars';
 
 export {
   Hero,
@@ -12,4 +13,5 @@ export {
   AboutUs,
   OurNumbers,
   Testimonials,
+  TopCars,
 };

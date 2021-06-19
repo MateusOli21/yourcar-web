@@ -18,7 +18,10 @@
       "@components/*": ["components/*"],
       "@pages/*": ["pages/*"],
       "@styles/*": ["styles/*"],
-      "@assets/*": ["assets/*"]
+      "@assets/*": ["assets/*"],
+      "@providers/*": ["providers/*"],
+      "@services/*": ["services/*"],
+      "@shared/*": ["shared/*"]
     }
   },
   "include": [
