@@ -4,10 +4,17 @@ import { MdClose } from 'react-icons/md';
 
 import { Logo } from '@components/elements/customs';
 import { NavItems, NavItem } from '@components/elements/navbar';
+import scrollToSection from '../../../shared/utils/scrollToSection';
 
 const Navbar: React.FC = () => {
   const [toggleMobileMenu, setToggleMobileMenu] = useState(false);
-  const menusOptions = ['Home', 'Sobre nós', 'Serviços', 'Contato'];
+  const menusOptions = [
+    { name: 'Home', section: '#hero-section' },
+    { name: 'Sobre nós', section: '#about-us-section' },
+    { name: 'Carros', section: '#top-cars-section' },
+    { name: 'Como funciona', section: '#how-it-works-section' },
+    { name: 'Depoimentos', section: '#testimonials-section' },
+  ];
 
   const handleToggleMobileMenu = () => setToggleMobileMenu(!toggleMobileMenu);
 
@@ -23,7 +30,12 @@ const Navbar: React.FC = () => {
         >
           <NavItems>
             {menusOptions.map((item, index) => (
-              <NavItem key={index}>{item}</NavItem>
+              <NavItem
+                key={index}
+                onClick={() => scrollToSection(item.section)}
+              >
+                {item.name}
+              </NavItem>
             ))}
           </NavItems>
         </nav>

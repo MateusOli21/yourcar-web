@@ -29,6 +29,7 @@ const Footer: React.FC = () => (
     </div>
     <div className="bg-gray-800 flex flex-row items-center justify-between py-3 px-5 md:px-14 lg:px-16">
       <span className="text-white text-xs">Copyright&#169;2021</span>
+
       <Logo sm altColor />
     </div>
   </div>

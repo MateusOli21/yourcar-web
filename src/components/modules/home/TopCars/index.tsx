@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ICar } from 'shared/interfaces/car';
+import { ICar } from '@shared/interfaces/car';
 import { CarCard } from '@components/elements/cards';
 import {
   SectionMainTitle,
@@ -12,7 +12,10 @@ interface IComponentProps {
 }
 
 const TopCars: React.FC<IComponentProps> = ({ cars }) => (
-  <section className="flex flex-col items-center my-16 lg:my-14">
+  <section
+    id="top-cars-section"
+    className="flex flex-col items-center my-16 lg:my-14"
+  >
     <SectionSubTitle>Top Carros</SectionSubTitle>
     <SectionMainTitle>Explore nossos melhores carros</SectionMainTitle>
 

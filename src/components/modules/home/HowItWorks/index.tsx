@@ -9,7 +9,10 @@ import {
 } from '@components/elements/customs';
 
 const HowItWorks: React.FC = () => (
-  <section className="w-full max-w-6xl flex flex-col items-center justify-center px-5 sm:py-9 md:pt-14 md:pb-10">
+  <section
+    id="how-it-works-section"
+    className="w-full max-w-6xl flex flex-col items-center justify-center px-5 sm:py-9 md:pt-14 md:pb-10"
+  >
     <SectionSubTitle>Como funciona</SectionSubTitle>
     <SectionMainTitle>Nossos passos para alugar um carro</SectionMainTitle>
 

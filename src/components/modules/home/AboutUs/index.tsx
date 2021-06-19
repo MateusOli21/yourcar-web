@@ -7,7 +7,10 @@ import {
 } from '@components/elements/customs';
 
 const AboutUs: React.FC = () => (
-  <div className="w-full bg-gray-100 max-w-6xl flex flex-col lg:flex-row lg:gap-14 items-center justify-center px-5 py-8 lg:pt-12 lg:pb-24">
+  <section
+    id="about-us-section"
+    className="w-full bg-gray-100 max-w-6xl flex flex-col lg:flex-row lg:gap-14 items-center justify-center px-5 py-8 lg:pt-12 lg:pb-24"
+  >
     <img
       className="w-full max-w-lg md:max-w-xl"
       src={jeepImage}
@@ -28,7 +31,7 @@ const AboutUs: React.FC = () => (
         vitae lectus sit amet egestas.
       </p>
     </div>
-  </div>
+  </section>
 );
 
 export default AboutUs;
