@@ -29,6 +29,7 @@
     "no-use-before-define": "off",
     "space-before-function-paren": "off",
     "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
